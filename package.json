@@ -1,6 +1,6 @@
 {
   "name": "transform-currency",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Transform currency code to symbol",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/transform-currency.git",
