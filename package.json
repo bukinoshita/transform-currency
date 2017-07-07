@@ -25,9 +25,8 @@
   },
   "dependencies": {
     "currenci": "^0.0.1",
-    "find-currency-code": "^0.0.1",
-    "has-currency-code": "^0.0.1",
-    "is-currency-code": "^1.1.0"
+    "find-currency-code": "^0.0.2",
+    "has-currency-code": "^0.0.2"
   },
   "xo": {
     "space": true,

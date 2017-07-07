@@ -1422,12 +1422,11 @@ find-cache-dir@^0.1.1:
     mkdirp "^0.5.1"
     pkg-dir "^1.0.0"
 
-find-currency-code@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/find-currency-code/-/find-currency-code-0.0.1.tgz#5d5858b05ad7e843a99c19eaed427dcabcc7d2b4"
+find-currency-code@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/find-currency-code/-/find-currency-code-0.0.2.tgz#48631cc699d2f41ef608db39f20f78306d5accad"
   dependencies:
     currenci "^0.0.1"
-    is-currency-code "^1.1.0"
 
 find-up@^1.0.0:
   version "1.1.2"
@@ -1659,12 +1658,11 @@ has-color@~0.1.0:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/has-color/-/has-color-0.1.7.tgz#67144a5260c34fc3cca677d041daf52fe7b78b2f"
 
-has-currency-code@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/has-currency-code/-/has-currency-code-0.0.1.tgz#8e4cdd60afeba35aef11596c8db34f96a7b51570"
+has-currency-code@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/has-currency-code/-/has-currency-code-0.0.2.tgz#51df7b67bf78bce0b70b51bef6daf2b1347ca038"
   dependencies:
-    find-currency-code "^0.0.1"
-    is-currency-code "^1.1.0"
+    find-currency-code "^0.0.2"
 
 has-flag@^1.0.0:
   version "1.0.0"
@@ -1848,10 +1846,6 @@ is-ci@^1.0.7:
   resolved "https://registry.yarnpkg.com/is-ci/-/is-ci-1.0.10.tgz#f739336b2632365061a9d48270cd56ae3369318e"
   dependencies:
     ci-info "^1.0.0"
-
-is-currency-code@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/is-currency-code/-/is-currency-code-1.1.0.tgz#bc9c0ff5b720b3e0530a5567cdbb26b0128f7217"
 
 is-dotfile@^1.0.0:
   version "1.0.3"

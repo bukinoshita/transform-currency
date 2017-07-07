@@ -3,13 +3,12 @@
 const currenci = require('currenci')
 const findCurrencyCode = require('find-currency-code')
 const hasCurrencyCode = require('has-currency-code')
-const isCurrencyCode = require('is-currency-code')
 
 module.exports = str => {
   return new Promise((resolve, reject) => {
     const code = findCurrencyCode(str)
 
-    if (hasCurrencyCode(str) && isCurrencyCode(code)) {
+    if (hasCurrencyCode(str) && code) {
       currenci.list.filter(currency => {
         if (currency.code === code) {
           const index = str.indexOf(code)
