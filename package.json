@@ -20,7 +20,7 @@
     "transform-currency"
   ],
   "devDependencies": {
-    "ava": "0.25.0",
+    "ava": "2.0.0",
     "xo": "0.18.2"
   },
   "dependencies": {
