@@ -945,6 +945,12 @@ currenci@^0.0.1:
   dependencies:
     unique-random-array "^1.0.0"
 
+currenci@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/currenci/-/currenci-1.0.0.tgz#fefa3a8bf8b2e39b43cfae76ef8b73331629ea3a"
+  dependencies:
+    unique-random-array "^2.0.0"
+
 currently-unhandled@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/currently-unhandled/-/currently-unhandled-0.4.1.tgz#988df33feab191ef799a61369dd76c17adf957ea"
@@ -3713,9 +3719,19 @@ unique-random-array@^1.0.0:
   dependencies:
     unique-random "^1.0.0"
 
+unique-random-array@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/unique-random-array/-/unique-random-array-2.0.0.tgz#9e639b1a9dc141e97350a6fc6f17da4b0717b1ad"
+  dependencies:
+    unique-random "^2.1.0"
+
 unique-random@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unique-random/-/unique-random-1.0.0.tgz#ce3e224c8242cd33a0e77b0d7180d77e6b62d0c4"
+
+unique-random@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/unique-random/-/unique-random-2.1.0.tgz#7a8413da5176d028567168b57125ac5c0cec5c25"
 
 unique-string@^1.0.0:
   version "1.0.0"
