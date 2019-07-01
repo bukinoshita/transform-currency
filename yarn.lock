@@ -939,12 +939,6 @@ crypto-random-string@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
 
-currenci@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/currenci/-/currenci-0.0.1.tgz#84cbd12672d60e54aadc930e9f69bbc6fe704b4a"
-  dependencies:
-    unique-random-array "^1.0.0"
-
 currenci@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/currenci/-/currenci-1.0.0.tgz#fefa3a8bf8b2e39b43cfae76ef8b73331629ea3a"
@@ -1583,12 +1577,6 @@ find-cache-dir@^2.0.0:
     make-dir "^2.0.0"
     pkg-dir "^3.0.0"
 
-find-currency-code@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/find-currency-code/-/find-currency-code-0.0.2.tgz#48631cc699d2f41ef608db39f20f78306d5accad"
-  dependencies:
-    currenci "^0.0.1"
-
 find-currency-code@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/find-currency-code/-/find-currency-code-1.0.0.tgz#c250a2523ebd70a278ca22f7386fb6927a90d2bc"
@@ -1795,11 +1783,11 @@ graceful-fs@^4.1.15:
   version "4.1.15"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
 
-has-currency-code@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/has-currency-code/-/has-currency-code-0.0.2.tgz#51df7b67bf78bce0b70b51bef6daf2b1347ca038"
+has-currency-code@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/has-currency-code/-/has-currency-code-1.0.0.tgz#da9d206ada71daeb08fbff6e294fe8e4f01d9ea5"
   dependencies:
-    find-currency-code "^0.0.2"
+    find-currency-code "^1.0.0"
 
 has-flag@^2.0.0:
   version "2.0.0"
@@ -3719,21 +3707,11 @@ union-value@^1.0.0:
     is-extendable "^0.1.1"
     set-value "^0.4.3"
 
-unique-random-array@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/unique-random-array/-/unique-random-array-1.0.0.tgz#42b3721c579388d8b667c93c2dbde3d5d81a9136"
-  dependencies:
-    unique-random "^1.0.0"
-
 unique-random-array@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/unique-random-array/-/unique-random-array-2.0.0.tgz#9e639b1a9dc141e97350a6fc6f17da4b0717b1ad"
   dependencies:
     unique-random "^2.1.0"
-
-unique-random@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/unique-random/-/unique-random-1.0.0.tgz#ce3e224c8242cd33a0e77b0d7180d77e6b62d0c4"
 
 unique-random@^2.1.0:
   version "2.1.0"

@@ -26,7 +26,7 @@
   "dependencies": {
     "currenci": "^1.0.0",
     "find-currency-code": "^1.0.0",
-    "has-currency-code": "^0.0.2"
+    "has-currency-code": "^1.0.0"
   },
   "xo": {
     "space": true,
